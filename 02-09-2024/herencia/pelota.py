@@ -13,7 +13,7 @@ class PelotaDeJuguete(PelotaDePlastico):
         self.rebotes = []
         while altura > 0:
             self.rebotes += [altura, 0]
-            # print(self.rebotes)
+        # print(self.rebotes)
             altura //= 2
             
 pdj = PelotaDeJuguete()
