@@ -7,7 +7,7 @@ class EdadError(Error):
         self.mensaje=mensaje
         
 try:
-    edad = int(input("ingrese una edad"))
+    edad = int(input("ingrese una edad :"))
     if edad < 18:
         raise EdadError("Error en la edad", edad)
 except EdadError as e:
